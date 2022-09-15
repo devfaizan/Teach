@@ -1,0 +1,97 @@
+/* header start here */
+#main-index {
+    display: none;
+}
+#tab-index {
+    display: flex;
+    width: 85%;
+    height: 10vh;
+    margin: 23px auto 47px auto;
+    justify-content: space-around;
+    align-items: center;
+}
+#menu{
+    position: relative;
+}
+#dropdown{
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 70px;
+    left: -120px;
+    z-index: 1;
+}
+.d-ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    background-color: #c7c7c7;
+    border: 1px solid black;
+}
+.d-li{
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid royalblue;
+}
+.d-a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    padding: 10px 100px;
+}
+#menu:hover #dropdown{
+    display: block;
+}
+.l1{
+    display: none;
+}
+/* header ends here */
+/* meta starts here */
+
+.meta {
+    width: 85%;
+    height: 16vh;
+    font-size: 16px;
+}
+
+.pp-cont {
+    font-size: 20px;
+}
+
+.pp {
+    width: 25px;
+    height: 25px;
+}
+
+.a {
+    margin-left: 10px;
+}
+
+.t-photo {
+    height: 55%;
+    margin: 12px 0px 5px 0px;
+}
+.d-cont{
+    width: 165px;
+}
+.t-read {
+    width: 50%;
+    margin-left: 0px;
+    font-weight: 275;
+}
+/* meta ends here */
+/* lesson starts here */
+.lesson{
+    margin: 25px auto 64px auto;
+    font-size: 20px;
+}
+/* lesson ends here */
+/* footer starts here  */
+footer{  
+    font-size: 14px;
+}
+/* footer ends here */

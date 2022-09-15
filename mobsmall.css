@@ -1,0 +1,47 @@
+/* header stars here */
+#tab-index {
+    width: 70%;
+}
+/* header ends here */
+/* topics starts here */
+#topics {
+    width: 70%;
+    height: 30vh;
+}
+#pop{
+    width: 130px;
+    height: 30px;
+    font-size: 12px;
+}
+#cont-indiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+.forflex{
+    width: 100px;
+    height: 100%;
+    flex-direction: column;
+}
+.indiv {
+    width: 97px;
+    height: 35px;
+}
+.dot {
+    width: 6px;
+    height: 6px;
+}
+
+.i-text {
+    width: 84px;
+    height: 35px;
+    font-size: 10px;
+}
+/* topics ends here */
+/* footer starts here  */
+footer{  
+    font-size: 12px;
+}
+/* footer ends here */

@@ -1,0 +1,127 @@
+/*header starts here */
+#main-index {
+    display: none;
+}
+#tab-index {
+    display: flex;
+    width: 85%;
+    height: 10vh;
+    margin: 23px auto 47px auto;
+    justify-content: space-around;
+    align-items: center;
+}
+#menu{
+    position: relative;
+}
+#dropdown{
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: -120px;
+    border: 1px solid tomato;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+}
+.d-ul{
+    border: 1px solid green;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    background-color: #c7c7c7;
+    border: 1px solid black;
+}
+.d-li{
+    border: 1px solid royalblue;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    padding: 10px;
+}
+.d-a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+#menu:hover #dropdown{
+    display: block;
+}
+.l1{
+    display: none;
+}
+/* header end here */
+/* hero starts here */
+#hero {
+    flex-direction: column;
+    height: 45vh;
+}
+.cont-img {
+    width: 100%;
+    height: 50%;
+}
+.cont-text {
+    margin-top: 20px;
+    width: 76%;
+}
+.hh1 {
+    font-size: 25px;
+    text-align: left;
+}
+.hp1 {
+    font-size: 18px;
+    width: 100%;
+    height: 35%;
+    margin: 0px 0px 0px 0px;
+}
+.cont-btn {
+    margin: 20px auto 0px auto;
+    width: 100%;
+    height: 30%;
+}
+.btn {
+    width: 45%;
+    font-size: 12px;
+    height: 80%;
+}
+.b2 {
+    margin-left: 10px;
+}
+/* hero ends here */
+/* topics starts here */
+#topics {
+    width: 85%;
+    height: 20vh;
+    margin: 52px auto 47px auto;
+}
+#pop{
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+}
+#cont-indiv {
+    height: 120px;
+}
+
+.indiv {
+    width: 111px;
+    height: 45px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+}
+
+.i-text {
+    width: 95px;
+    height: 45px;
+    font-size: 12px;
+}
+/* topics ends here */
+/* footer starts here  */
+footer{  
+    font-size: 14px;
+}
+/* footer ends here */
